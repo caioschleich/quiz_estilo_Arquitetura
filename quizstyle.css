@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -32,6 +32,8 @@ body {
   );
   font-family: Roboto;
   overflow-x: hidden;
+  width: 100%;
+  margin: auto;
 }
 
 main {
@@ -75,8 +77,8 @@ header {
   overflow: hidden;
 }
 
-.wrapper{
-  display:flex;
+.wrapper {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
@@ -224,12 +226,12 @@ label {
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
-  color:#472379;
+  color: #472379;
   transition: 0.3s;
 }
 
 #answerspan:hover {
-  color:#e01056;
+  color: #e01056;
 }
 
 figure {
@@ -266,6 +268,10 @@ input:focus {
 }
 
 @media only screen and (min-width: 700px) {
+  main {
+    width: 100%;
+    margin: auto;
+  }
   header {
     background-size: 100%;
   }
