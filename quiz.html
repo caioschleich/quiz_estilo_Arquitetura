@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descubra seu Estilo! - Hiperespaço Arquitetura</title>
+    <link rel="stylesheet" href="./quizstyle.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="h1header">
+          Qual estilo de arquitetura mais combina com você?
+        </h1>
+      </header>
+
+      <div class="wrapper">
+        <form id="form">
+          <br />
+          <h2>Escolha uma paleta de cores</h2>
+          <div class="cardholder">
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="color" id="c1" value="1" />
+                <div class="imgcard"><img src="./img/color01.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="color" id="c2" value="2" />
+                <div class="imgcard"><img src="./img/color02.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="color" id="c3" value="3" />
+                <div class="imgcard"><img src="./img/color03.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="color" id="c4" value="4" />
+                <div class="imgcard"><img src="./img/color04.jpg" /></div
+              ></label>
+            </div>
+          </div>
+
+          <br />
+          <h2>Escolha uma cadeira</h2>
+
+          <div class="cardholder">
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="chair" id="luis" value="1" />
+                <div class="imgcard"><img src="./img/chair01.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="chair" id="tolix" value="2" />
+                <div class="imgcard"><img src="./img/chair02.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="chair" id="pantom" value="3" />
+                <div class="imgcard"><img src="./img/chair03.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="chair" id="poly" value="4" />
+                <div class="imgcard"><img src="./img/chair04.jpg" /></div
+              ></label>
+            </div>
+          </div>
+
+          <br />
+          <h2>Escolha um filme</h2>
+
+          <div class="cardholder">
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="film" id="god" value="1" />
+                <div class="imgcard"><img src="./img/film01.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="film" id="fight" value="2" />
+                <div class="imgcard"><img src="./img/film02.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="film" id="clock" value="3" />
+                <div class="imgcard"><img src="./img/film03.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="film" id="parasita" value="4" />
+                <div class="imgcard"><img src="./img/film04.jpg" /></div
+              ></label>
+            </div>
+          </div>
+
+          <br />
+          <h2>Escolha uma obra</h2>
+
+          <div class="cardholder">
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="art" id="venus" value="1" />
+                <div class="imgcard"><img src="./img/art01.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="art" id="wahrol" value="2" />
+                <div class="imgcard"><img src="./img/art02.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="art" id="tarsila" value="3" />
+                <div class="imgcard"><img src="./img/art03.jpg" /></div
+              ></label>
+            </div>
+
+            <div class="card">
+              <label class="labl"
+                ><input type="radio" name="art" id="bansky" value="4" />
+                <div class="imgcard"><img src="./img/art04.jpg" /></div
+              ></label>
+            </div>
+          </div>
+
+          <!--
+          <br />
+          <h2>Digite seu nome e seu email</h2>
+
+          <div class="form">
+            <form>
+              <input placeholder="Nome" />
+              <input placeholder="E-mail" />
+            </form>
+          </div>
+          -->
+
+          <button id="botaoenviar" type="submit" value="Submit">Enviar!</button>
+      </div>
+      <div id="answers-visible">
+        <!--
+        <p id="answerscore"></p>
+        -->
+        <h3 id="answerhead"></h3>
+        <h1 id="answertitle"></h1>
+        <p id="answertxt"></p>
+        <img id="answerimg" />
+        <p id="answercall"></p>
+      </div>
+      <figure alt="Hiperespaço Arquitetura">
+        <img src="./img/hiperarq.png" />
+      </figure>
+    </main>
+    <script src="./quizscript.js"></script>
+  </body>
+</html>
